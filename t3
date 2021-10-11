@@ -1,0 +1,3 @@
+Create bucket and set retention Policy
+
+- gsutil mb -c standard -l asia-south1 -p hybridskill-4 --retention 30d    gs://kunal1212
