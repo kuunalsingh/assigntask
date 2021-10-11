@@ -1,0 +1,5 @@
+gsutil mb gs://kunal11111
+gsutil cp Desktop/index.html gs://kunal11111
+gsutil iam ch allUsers:objectViewer gs://kunal11111 //to make individual object in your bucket policy accessible 
+gsutil web set -m index.html gs://kunal11111
+then public ip will show the website
